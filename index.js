@@ -1,1 +1,1 @@
-exports.Editor = require('./build/components/editor.js').default
+exports.Suggest = require('./build/components/suggest.js').default
