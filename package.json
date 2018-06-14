@@ -1,32 +1,34 @@
 {
   "name": "react-simple-suggest",
-  "version": "1.0.0",
-  "description": "A library called react-simple-suggest",
+  "version": "1.0.1",
+  "description": "Get a suggestion",
   "main": "index.js",
-  "homepage": "https://github.com/rojasleon/react-simple-suggest#readme",
+  "scripts": {
+    "build": "babel ./src --out-dir ./build"
+  },
+  "directories": {
+    "lib": "./build"
+  },
   "files": [
     "build",
     "buttons.js",
     "index.js"
   ],
-  "scripts": {
-    "build": "babel ./src --out-dir ./build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rojasleon/react-simple-suggest.git"
   },
   "keywords": [
+    "react-simple-suggest",
     "suggest",
-    "auto-suggest",
-    "react-autosuggest",
-    "react-simple-suggest"
+    "auto-suggest"
   ],
-  "author": "Juan Luis Rojas León <luisrojasleon5@gmail.com> (http://luisrojas.me/)",
+  "author": "Juan Luis Rojas León",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rojasleon/react-simple-suggest/issues"
   },
+  "homepage": "https://github.com/rojasleon/react-simple-suggest#readme",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-loader": "7.1.4",
@@ -37,6 +39,7 @@
     "babel-preset-es2017": "6.24.1",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
-    "react": "16.4.0"
+    "react": "16.4.0",
+    "react-dom": "16.4.0"
   }
 }
