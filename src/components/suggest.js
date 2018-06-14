@@ -9,6 +9,7 @@ class Suggest extends Component {
       value,
     }));
   }
+
   onSubmit = (event) => event.preventDefault();
   render() {
     const { value } = this.state;
